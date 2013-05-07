@@ -1,0 +1,32 @@
+\documentclass[a4paper,11pt]{scrartcl}
+\usepackage[ngerman]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath}
+\usepackage{dsfont}
+\usepackage{geometry}
+\usepackage{graphicx}
+
+\geometry{a4paper,left=18mm,right=18mm, top=1cm, bottom=2cm} 
+\setlength{\columnsep}{120pt}
+
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+\begin{document}
+ \title{17x17 Problem}
+ \author{Martin Thoma}
+
+ \setcounter{section}{1}
+ \section*{Das 17x17 Problem}
+ Das 17x17 Problem bezieht sich auf die Färbung mit vier Farben.
+ \subsection{Zahlen}
+   \begin{itemize}
+     \item Anzahl der möglichen Färbungen: $4^{(17^2)} = 4^{289} \approx 9,89 \cdot 10^{173}$
+     \item Anzahl der 4er Permutationen: $\binom{17}{4} = 2380$
+     \item Anzahl der 5er Permutationen: $\binom{17}{5} = 6188$
+     \item Anzahl aller Kombinationsmöglichkeiten: $\binom{2380+6188}{17} = \binom{8568}{17} \approx 2,00 \cdot 10^{52}$
+     \item Wenn es 1 Lösung gibt, gibt es mindestens: $17! \cdot 17! \approx {3,56 \cdot 10^{14}}^2 \approx 1,27 \cdot 10^{29}$
+   \end{itemize}
+
+\end{document}

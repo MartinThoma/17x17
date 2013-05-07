@@ -1,4 +1,6 @@
 17x17
 =====
 
-Öffnungscode und das 17x17 Problem
+Das Problem wurde von (Prof. Dr.-Ing. habil. Bernd Steinbach)[http://www.informatik.tu-freiberg.de/prof2/steinbach.html] 
+und Christian Posthoff gelöst! 
+Siehe (Link)[http://blog.computationalcomplexity.org/2012/02/17x17-problem-solved-also-18x18.html#comment-form].
